@@ -2,3 +2,9 @@ python-dotenv
 pydantic-settings
 langchain-google-genai
 qdrant-client
+docling
+docling-core
+docling-ibm-models
+docling-parser
+dotenv
+

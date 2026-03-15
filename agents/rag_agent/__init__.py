@@ -3,7 +3,6 @@ import time
 import logging
 from typing import List, Optional, Dict, Any
 
-# These imports refer to files we will build next in the same folder
 from .doc_parser import MedicalDocParser
 from .content_processor import ContentProcessor
 from .vectorstore_qdrant import VectorStore
