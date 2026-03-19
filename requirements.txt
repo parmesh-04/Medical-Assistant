@@ -7,4 +7,5 @@ docling-core
 docling-ibm-models
 docling-parser
 dotenv
-
+pillow
+regex
