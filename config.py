@@ -20,6 +20,10 @@ class Config:
             google_api_key=os.getenv("GOOGLE_API_KEY")
         )
 
+        self.rag = type('obj', (object,), {})() # Creates a small sub-object
+        self.rag.summarizer_model = self.llm    # Uses Gemini for summarizing
+        self.rag.chunker_model = self.llm       # Uses Gemini for chunking
+
       
         self.vector_db_type = "qdrant"
         self.vector_local_path = "./data/qdrant_db"

@@ -9,3 +9,6 @@ docling-parser
 dotenv
 pillow
 regex
+langchain-qdrant
+qdrant-client
+fastembed
